@@ -1,0 +1,170 @@
+/* Start global styles */
+
+:root {
+    --light-grey: #323544;
+    --middle-grey: #2D303D;
+    --dark-grey: #262936;
+    --darker-grey: #1E202B;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* End global styles */
+
+/* Start of NavBar */
+header nav.navbar {
+    background-color: var(--darker-grey);
+}
+header .navbar .container a .brand-photo {
+
+    width: 4rem;
+}
+header .navbar .container a small {
+    font-size: 0.7rem;
+}
+header .navbar .container button {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+header .navbar .container button i {
+    color: white;
+}
+header .navbar .container button:hover i{
+    color: #1379CD;
+    width: 20px;
+    height: 22px;
+}
+header .navbar .container button:hover {
+    border: solid #1379CD;
+    border-radius: 50%;
+
+}
+header .navbar .container .navbar-collapse ul li a {
+    color: #FFFFFF;
+    transition: color 0.4s;
+    text-align: center;
+}
+header .navbar .container .navbar-collapse ul li:hover a {
+    color: #1379CD;
+    border: solid #1379CD;
+}
+header .navbar .container .navbar-collapse ul li .active{
+    color: #1379CD;
+    border: solid #1379CD;
+}
+/* End of NavBar */
+
+/* Start of Search */
+main .search {
+    background-image: url(../images/banner.png);
+    height: 50vh;
+}
+main .search .container input {
+    background-color: var(--darker-grey);
+    color: white;
+}
+main .search .container input::placeholder {
+    color: white;
+}
+
+main .search .container button {
+    background-color: #009AD8;
+    color: white;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    z-index: 10;
+    
+}
+/* End of Search */
+
+/* Start of Day Styling */
+.main-sections {
+    background-color: var(--darker-grey);
+}
+.days{
+    transform: translateY(-100px);
+}
+
+
+.days .first-day {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: var(--light-grey);
+}
+.days .first-day .day-header {
+    background-color: var(--middle-grey);
+    border-top-left-radius: 1rem;
+}
+.days .first-day .day-body .day-photo {
+    width: 5rem;
+}
+.days .first-day .day-body .day-photo {
+    width: 5rem;
+}
+
+
+
+
+.days .second-day {
+    background-color: var(--dark-grey);
+}
+.days .second-day .day-header {
+    background-color: var(--darker-grey);
+}
+.days .second-day .day-body .day-photo {
+    width: 5rem;
+}
+.days .third-day {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--light-grey);
+}
+.days .third-day .day-header {
+    background-color: var(--middle-grey);
+    border-top-right-radius: 1rem;
+}
+.days .third-day .day-body .day-photo {
+    width: 5rem;
+}
+
+/* End of Day Styling */
+
+
+
+/* Start of Subscription Styling */
+.subscribe {
+    background-color: var(--middle-grey);
+}
+.subscribe .input-group input {
+    background-color: var(--darker-grey);
+}
+.subscribe .input-group input::placeholder {
+    color: white;
+}
+.subscribe .input-group button{
+    background-color: #009AD8;
+    color: white;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    z-index: 10;
+}
+.subscribe .social-media ul li a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: var(--darker-grey);
+    color: #009ad8;
+    text-align: center;
+}
+.subscribe .social-media ul li a i {
+    padding-top: 11px;
+}
+
+
+/* End of Subscription Styling */
